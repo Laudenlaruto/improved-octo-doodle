@@ -18,7 +18,7 @@ spec:
     - repoURL: https://github.com/Laudenlaruto/improved-octo-doodle.git
       targetRevision: HEAD
       ref: values
-      # path: apps/traefik/
+      path: apps/traefik/
   syncPolicy:
     automated:
       prune: true
