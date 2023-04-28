@@ -17,8 +17,10 @@ spec:
           - $values/apps/traefik/values.yaml
     - repoURL: https://github.com/Laudenlaruto/improved-octo-doodle.git
       targetRevision: HEAD
-      ref: values
       path: apps/traefik/
+    - repoURL: https://github.com/Laudenlaruto/improved-octo-doodle.git
+      targetRevision: HEAD
+      ref: values
   syncPolicy:
     automated:
       prune: true
