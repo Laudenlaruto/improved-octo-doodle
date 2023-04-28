@@ -1,12 +1,13 @@
-ingressClass:
-  enabled: false
-ingressRoute:
-  dashboard:
+traefik:
+  ingressClass:
     enabled: false
-service:
-  type: ClusterIP
-logs:
-  general:
-    level: INFO
-  access:
-    enabled: true
+  ingressRoute:
+    dashboard:
+      enabled: false
+  service:
+    type: ClusterIP
+  logs:
+    general:
+      level: INFO
+    access:
+      enabled: true
